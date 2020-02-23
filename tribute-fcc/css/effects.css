@@ -1,0 +1,86 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: aliceblue
+    ;height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1 {
+   
+    margin: auto;
+  background-color: rgb(14, 13, 13);
+   /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+   color:aliceblue;
+  }
+
+  }
+
+.centre {
+    margin: auto;
+    width: 50%;
+    position: relative;
+    text-align: center;
+}
+ul {
+    text-align: justify;
+width: 50%;
+position:relative;
+
+  }
+ p {
+    text-align: justify;
+    width: 50%;
+    position:relative;
+
+  }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column  {
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  .img-div {
+    justify-content: center;
+}
+#img-caption {
+ 
+  font-size: 30px;
+    
+  
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column  {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column  {
+      flex: 100%;
+      max-width: 100%;
+    
+  }
+  
+  }
+ 
+  }
