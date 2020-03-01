@@ -1,0 +1,69 @@
+
+
+<html>
+
+    <link rel="stylesheet" types="text/css" href="effects.css">
+
+<head>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+
+<body>
+    <div class="container">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!-- Title Field -->
+    <center><h1 id="title"> Survey Form Template </h1></center>
+    <!-- Description Field -->
+    <center><p id="description"> This is a Sample survey form template with basic fields for Name, Email, Number, Dropdowns, Checkboxes and radio buttons
+    </p></center>
+    <form id="survey-form">
+        <!-- Name Field -->
+        <label id="name-label">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your Name" required><br>
+        <!-- Email-Id Field  -->
+        <label id="email-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" required><br>
+        <!-- Custom Number Field  -->
+        <label id="number-label">Number</label>
+        <input type="number" class="form-control" id="number" min="1" max="9999" placeholder="Enter your number" required><br>
+        <!-- DropDown list Field  -->
+        <label id="list">Choose an option</label>
+        <select id="dropdown" class="form-control"  name="dropdown">
+            <option value="Option 1">Option 1</option>
+            <option value="Option 2">Option 2</option>
+            <option value="Option 1">Option 3</option>
+            <option value="Option 1">Option 4</option>
+        </select ><br>
+        <!-- Option Field  -->
+        <p>Would you recommend this product?</p>
+        <label>
+            <input type="radio" class="option"  value="Sure" name="name">Sure
+        </label>
+        <label>
+            <input type="radio" class="option" value="Maybe" name="name">Maybe
+        </label>
+        <label>
+            <input type="radio" class="option"  value="Nah" name="name">Nah
+        </label><br>
+        <!-- Checkbox Field  -->
+        <p>Which one of these is awesome</p>
+        <label>
+            <input type="checkbox" class="option"  value="Cheese"> Cheesecake for breakfast
+        </label>
+        <label>
+            <input type="checkbox" class="option"  value="Coke"> Old fashioned Coca Cola bottles.
+        </label>
+        <label>
+            <input type="checkbox" class="option"  value="Coke"> Old fashioned Coca Cola bottles.
+        </label><br>
+        <!-- TextBox Field  -->
+        <p>Any more comments?</p>
+        <textarea id="textarea" class="input-textarea" placeholder="Enter your comments"></textarea><br>
+        <!-- Submit button characteristics  -->
+        <button type="submit" id="submit"> Submit</button><br>
+
+    </form>
+</div>
+</body>
+
+</html>
